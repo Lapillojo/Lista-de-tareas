@@ -1,0 +1,80 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #FAFAFA;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 18px;
+    
+}
+
+.wrap {
+	margin: auto;
+	max-width: 800px;
+	width: 90%;
+}
+
+.principal {
+	background: #9f467b;
+	border-top: 20px solid #851a70;
+	color: #fff;
+	padding: 50px 0;
+	width: 100%;
+}
+
+.principal .formulario {
+	color: #212121;
+	text-align: center;
+}
+
+.principal .formulario input[type=text] {
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+}
+
+.principal .formulario input[type=text].error {
+	border: 5px solid #4bc2ed;
+	color: rgb(32, 210, 213);
+}
+
+.principal .formulario .boton {
+	background-color: white;
+	display: inline-block;
+	font-size: 12px;
+	padding: 15px;
+    border: 1.5px solid rgb(26, 25, 26);
+}
+
+.principal .formulario .boton:hover {
+    background-color: rgb(204, 205, 208);
+}
+
+/* - Tareas - */
+
+
+.tareas .lista li {
+	border-bottom: 1px solid #B6B6B6;
+}
+
+.tareas .lista li a {
+	color: #212121;
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+}
+
+.tareas .lista li a:hover {
+	text-decoration: line-through;
+}
+
+input{
+    font-family: 'Dosis', sans-serif;
+} 
